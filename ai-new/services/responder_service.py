@@ -18,8 +18,8 @@ from google.oauth2 import id_token
 from google.auth.transport import requests as google_requests
 
 # Configuration
-GROQ_API_KEY = "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"
-STABILITY_API_KEY = "sk-3UnY9eVsTHi0V0NCCa5mVY61FwL4djjKakG7V3ePqs9vorgi"
+GROQ_API_KEY = "Your_Groq_API"
+STABILITY_API_KEY = "Your_Stability_api"
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 STABILITY_API_URL = (
     "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image"
